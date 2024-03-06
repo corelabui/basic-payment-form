@@ -1,6 +1,6 @@
 # Payment form built with FormFusion
 
-This repository contains a login form page that uses the FormFusion [formfusion library](https://www.corelabui.com/).
+This repository contains a simple payment form page that uses the FormFusion [library](https://www.corelabui.com/).
 
 It is built with React, a popular JavaScript library for building user interfaces, providing a familiar and efficient development experience. Utilizes Vite as the build tool, offering fast and optimized builds for improved development workflow. Integrates formfusion for seamless form handling, including validation and submission functionality.
 
@@ -9,13 +9,13 @@ It is built with React, a popular JavaScript library for building user interface
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/corelabui/basic-payments-form.git
+   git clone https://github.com/corelabui/basic-payment-form.git
    ```
 
 2. Install dependencies:
 
    ```bash
-   cd basic-payments-form
+   cd basic-payment-form
    npm install
    ```
 
