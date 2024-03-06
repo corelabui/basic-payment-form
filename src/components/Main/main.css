@@ -1,0 +1,32 @@
+.container {
+  padding: 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__img {
+  height: 6em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto;
+  max-width: 600px;
+}
+
+.form__row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.form__row__item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

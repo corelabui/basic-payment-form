@@ -1,0 +1,35 @@
+.button {
+  border: 2px solid transparent;
+  border-radius: var(--border-radius);
+  display: inline-block;
+  position: relative;
+  height: 40px;
+  padding: 0 1em;
+  cursor: pointer;
+}
+
+.button--primary {
+  background: var(--primary);
+  border: 2px solid var(--primary);
+  color: var(--text-light);
+  border-radius: var(--border-radius);
+  box-shadow: var(--button-shadow);
+}
+
+.button--primary:hover {
+  background: var(--primary-hover);
+  border: 2px solid var(--primary-hover);
+}
+
+.button--primary:active {
+  border-radius: var(--border-radius);
+  background: var(--primary-active);
+  border: 2px solid transparent;
+}
+
+.button--primary:disabled {
+  background: var(--primary-disabled);
+  border: 2px solid transparent;
+  pointer-events: none;
+  color: var(--text-disabled);
+}
